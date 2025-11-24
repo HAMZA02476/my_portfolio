@@ -1,0 +1,135 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #F4F5F7;
+    margin: 0px;
+    justify-content: center;
+    padding: 48px 24px;
+}
+
+#navigation {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding-left: 143px;
+    padding-right: 143px;
+    margin-bottom: 28px;
+}
+
+#navigation h1{
+    color: #6070FF;
+    font-size: 18px;
+    font-weight: 700px;
+    line-height: 20px;
+}
+
+#navigation ul li {
+    list-style-type: none;
+    display: flex;
+    padding: 10px 12px;
+    float: right;
+}
+
+#navigation ul li a {
+    text-decoration: none;
+    color: #344563;
+    font-size: 15px;
+    font-weight: 500px;
+    line-height: 20px;
+} 
+
+#header {
+    padding: 260px;
+    background-color: #fff;
+    border-bottom-left-radius: 15%;
+    background-image: url(image/Header.png);
+    background-repeat: no-repeat;
+    
+}
+
+#header h1 {
+    font-weight: 700px;
+    color: #091E42;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+}
+
+#header p {
+    font-weight: 16px;
+    font-size: 20px;
+    color: #7F8CFF;
+    line-height: 24px;
+    display: grid; 
+}
+
+#Portfolio {
+    padding: 142px 142px;
+}
+
+.Portfolio-card {
+    display: flex;
+  
+    flex-direction: row;
+    padding: 24px 24px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.Portfolio-card img {
+    width: 50%;
+    margin-right: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    border-radius: 10px;
+    height: 450px;
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.categories ul {
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 20px; 
+    color: #344563;  
+}
+
+.tags {
+    display: flex;
+    gap: 10px;
+}
+
+.tags h3 {
+    background-color: #EBEBFF;
+    padding: 10px;
+    color: #6070FF;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.port-folio-items a {
+    color: #396DF2;
+    border: 2px solid #6070FF;
+    width: 14%;
+    border-radius: 10px;
+    padding: 10px;
+    align-content: center;
+}
+
+button {
+    color: #6070FF;
+    font-size: 12px;
+    border-radius: 8px;
+    border: #6070FF;
+    padding: 8px;
+    gap: 10px;
+    background-color: #f4f5f7;
+    margin-top: 40px;
+}
+
+

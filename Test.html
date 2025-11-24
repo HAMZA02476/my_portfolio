@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Test </title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: 33%  33% 33%;
+        }
+        
+        * {box-sizing: border-box;}
+        
+    </style>
+</head>
+<body>
+    <header><h1 style="text-align: center;">This is a Header</h1></header>
+    <p>Hello, <div>I am a div</div> in this paragraph.</p>
+    
+    <div class="grid-container">
+    <div style="background-color: aqua;">
+        <h2>Let's talk about UDS!</h2>
+        <p>UDS is located in the Northern Region of Ghana. It is one of the best schools in the 
+            country.
+        </p>
+    </div>
+   
+    <div style="background-color: blue;">
+        <p>Accra is the capital of Ghana <br>It is one of the nicest place in the country.It has 
+        the largest population of the country.</p>
+    </div>
+
+    <div style="background-color: blueviolet;">
+        <p>Oslo is the capital of Norway. <br>I don't really know much about this city and country.
+        <br>It probably has a good number of inhabitants.</p>
+    </div>
+    </div>
+
+    <p>This is my first JavaScript.</p>
+
+    <button type="button" 
+            onclick="document.getElementById('demo').innerHTML=Date()">This is super!
+    </button>
+    <p id="demo"></p>
+
+    <script>
+        document.getElementById("momo").innerHTML="Hello, Hamza. How are you, please?"
+    </script>
+
+    <button type="button" onclick="myFunction()">This is just a trial.</button>
+    <p id="momo">This is lovely!</p>
+    <script>
+        function myFunction() {
+            document.getElementById('momo').innerHTML="Al hamdu lillah for His blessings.";
+        }
+    </script>
+
+   <h3 id="work">UDS is a University in the Northern part of Ghana.</h3>
+   <button type="button" 
+           onclick="document.getElementById('work').innerHTML=Date()">What says the time?
+    </button>
+
+    <p id="Cat">This is a beautiful animal.</p>
+    <button type="button" 
+            onclick="document.getElementById('Cat').style.color='blue'">
+    </button>
+    <button type="button" onclick="document.getElementById('Cat').style.fontFamily='courier'">This is a beautiful animal!
+    </button>
+
+    <p id="Vidam">My name is Hamza. I come from Paga.</p>
+
+    <script>
+        function mySelf() {
+            document.getElementById('Vidam').style.color="blue"
+        
+            document.getElementById('Vidam').style.fontFamily="Courier"
+        }    
+    </script>
+
+    <p id="Origin">Which country do you come from?</p>
+    <script>
+        function myDes() {
+            document.getElementById('Origin').style.color="blue"
+            document.getElementById('Origin').style.fontSize="30px"
+        }
+    </script>
+    <button onclick="myDes()">Tap me</button>
+   
+
+      
+    
+</body>
+</html>
